@@ -10,3 +10,8 @@ mkdir $NEW_DIR
 cd $NEW_DIR
 # Print current directory
 pwd
+# Return to original directory, where we were before
+cd $ORIG_DIR
+# Print current directory
+pwd
+echo "Done"
