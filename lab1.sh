@@ -6,5 +6,7 @@ read NEW_DIR
 # Save directory to be able to return to it:
 ORIG_DIR=$(pwd)
 mkdir $NEW_DIR
+# Go to new directory
 cd $NEW_DIR
+# Print current directory
 pwd
